@@ -27,7 +27,7 @@ public class Menu extends Window {
         this.setSoloWindow(true);
 
         Panel panel = new Panel(Panel.Orientation.VERTICAL);
-        panel.setBorder(new Border.Standard());
+        //panel.setBorder(new Border.Standard());
         panel.setTitle("");
         panel.setAlignment(Component.Alignment.CENTER);
 
@@ -51,7 +51,7 @@ public class Menu extends Window {
         Button exit = new Button("Wyjście", new Action() {
             @Override
             public void doAction() {
-                router.action(ActionEnum.EXIT);
+                router.action(ActionEnum.EXIT_POPUP);
             }
         });
         exit.setAlignment(Component.Alignment.CENTER);

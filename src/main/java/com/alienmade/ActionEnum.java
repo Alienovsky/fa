@@ -1,5 +1,6 @@
 package com.alienmade;
 
 public enum ActionEnum {
-    EXIT, KONTRAHENCI;
+    EXIT, KONTRAHENCI, MENU, EXIT_POPUP;
+
 }
